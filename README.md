@@ -17,5 +17,33 @@ file contains the cleaned data resulting from exploratory data analysis. `data_f
 datasets. `Feature_engineering.ipynb` notebooks contains the code written for performing feature engineering on the `cleaned_data_after_eda.csv` file. `Churn prediction model.ipynb` file contains the preprocessing,
 model building, evaluation and tuning code which concludes the project.
 
+- **`Key Visualizations`**: The folder contains visualizations discovered during the EDA, feature engineering, and model building processes.
+
+## Insights derived from analysis and model building
+
+-  9.7% of the total companies churned where the major churners lie in the low consumption group i.e. companies consuming within 200,000 units of energy are the ones with highest churn numbers amounting to be 1,322 out of the 1,419 churned consumers.
+- 5 of the 8 sales channel had the churn rate > 5% with 12.1% being the highest churn rate per channel.
+- The distribution of churn by consumption was highly right-skewed, with the majority of customers concentrated in the lower consumption range. Similar is the case with forecasted fields.
+- The customers who have 'gas' in their contract showed lesser churn than customers who did not have gas in their contract. Similarly, customers with 5 or lesser purchased products showed more churn than customers purchasing more than 5 products. This clearly indicates, the higher number of products a customer buys, the lesser is the churning risk.
+
+
+## Installation and setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/utkarshere/Customer-churn-modelling-project.git
+   cd Customer-churn-modelling-project
+
+2. **Create a virtual environment**
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3. **Install Dependencies**
+    pip install -r requirements.txt
+
+4. Load the datasets and run the notebook.
+      
+
+
 
 
