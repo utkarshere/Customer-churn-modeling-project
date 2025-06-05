@@ -1,6 +1,6 @@
 # Customer Churn Analysis and Predictive Modeling
 
-A customer churn prediction model for predicting the churn probability of a hypothetical utility company named **Powerco**.
+This project was developed as part of the [**`BCGX Data Science Virtual Experience Program`**](https://www.theforage.com/simulations/bcg/data-science-ccdz) by Boston Consulting Group on `Forage`. The task involved analyzing customer behavior and predicting churn for a hypothetical energy company, **Powerco**, using machine learning techniques.
 
 ## Overview
 
